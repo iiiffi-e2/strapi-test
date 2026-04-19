@@ -40,7 +40,7 @@ export default function Home() {
             fetch and render it from Strapi APIs.
           </p>
         </section>
-      </main>
+      </div>
     </main>
   );
 }
