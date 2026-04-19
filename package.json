@@ -1,0 +1,13 @@
+{
+  "name": "hospital-group-platform",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev:web": "npm --prefix apps/web run dev",
+    "dev:cms": "npm --prefix apps/cms run dev",
+    "build:web": "npm --prefix apps/web run build",
+    "build:cms": "npm --prefix apps/cms run build",
+    "db:up": "docker compose up -d postgres",
+    "db:down": "docker compose down"
+  }
+}
