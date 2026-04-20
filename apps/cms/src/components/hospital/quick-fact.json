@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_hospital_quick_facts",
+  "info": {
+    "displayName": "Quick fact"
+  },
+  "options": {},
+  "attributes": {
+    "statMain": {
+      "type": "string"
+    },
+    "statEmphasis": {
+      "type": "string"
+    },
+    "statLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

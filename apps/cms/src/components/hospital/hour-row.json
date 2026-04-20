@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_hospital_hour_rows",
+  "info": {
+    "displayName": "Hour row"
+  },
+  "options": {},
+  "attributes": {
+    "dayLabel": {
+      "type": "string",
+      "required": true
+    },
+    "timeRange": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

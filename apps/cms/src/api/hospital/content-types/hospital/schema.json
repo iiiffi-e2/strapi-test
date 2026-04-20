@@ -1,0 +1,195 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hospitals",
+  "info": {
+    "singularName": "hospital",
+    "pluralName": "hospitals",
+    "displayName": "Hospital location",
+    "description": "Individual hospital / location landing pages"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hospitalName": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "hospitalName",
+      "required": true
+    },
+    "seoTitle": {
+      "type": "string"
+    },
+    "heroEyebrow": {
+      "type": "string"
+    },
+    "heroTitlePrefix": {
+      "type": "string"
+    },
+    "heroTitleEmphasis": {
+      "type": "string"
+    },
+    "heroLede": {
+      "type": "text"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "metaChips": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hospital.meta-chip"
+    },
+    "addressLine1": {
+      "type": "string"
+    },
+    "addressLine2": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "heroPrimaryCtaLabel": {
+      "type": "string"
+    },
+    "heroPrimaryCtaHref": {
+      "type": "string"
+    },
+    "heroSecondaryCtaLabel": {
+      "type": "string"
+    },
+    "heroSecondaryCtaHref": {
+      "type": "string"
+    },
+    "quickFacts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hospital.quick-fact",
+      "min": 0
+    },
+    "overviewEyebrow": {
+      "type": "string"
+    },
+    "overviewHeadingPrefix": {
+      "type": "string"
+    },
+    "overviewHeadingEmphasis": {
+      "type": "string"
+    },
+    "overviewParagraph1": {
+      "type": "text"
+    },
+    "overviewParagraph2": {
+      "type": "text"
+    },
+    "pullQuote": {
+      "type": "text"
+    },
+    "pullQuoteAttribution": {
+      "type": "string"
+    },
+    "sidebarRows": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hospital.sidebar-row"
+    },
+    "sidebarPrimaryCtaLabel": {
+      "type": "string"
+    },
+    "sidebarPrimaryCtaHref": {
+      "type": "string"
+    },
+    "sidebarSecondaryCtaLabel": {
+      "type": "string"
+    },
+    "sidebarSecondaryCtaHref": {
+      "type": "string"
+    },
+    "servicesEyebrow": {
+      "type": "string"
+    },
+    "servicesHeadingPrefix": {
+      "type": "string"
+    },
+    "servicesHeadingEmphasis": {
+      "type": "string"
+    },
+    "locationServices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hospital.location-service"
+    },
+    "teamEyebrow": {
+      "type": "string"
+    },
+    "teamHeadingPrefix": {
+      "type": "string"
+    },
+    "teamHeadingEmphasis": {
+      "type": "string"
+    },
+    "teamMembers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hospital.team-member"
+    },
+    "admissionsEyebrow": {
+      "type": "string"
+    },
+    "admissionsHeadingPrefix": {
+      "type": "string"
+    },
+    "admissionsHeadingEmphasis": {
+      "type": "string"
+    },
+    "admissionsSubtitle": {
+      "type": "text"
+    },
+    "admissionSteps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hospital.admission-step"
+    },
+    "visitMapEmbedUrl": {
+      "type": "text"
+    },
+    "visitParkingNote": {
+      "type": "text"
+    },
+    "visitHours": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hospital.hour-row"
+    },
+    "nearbyEyebrow": {
+      "type": "string"
+    },
+    "nearbyHeadingPrefix": {
+      "type": "string"
+    },
+    "nearbyHeadingEmphasis": {
+      "type": "string"
+    },
+    "nearbyLocations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hospital.nearby-link"
+    }
+  }
+}

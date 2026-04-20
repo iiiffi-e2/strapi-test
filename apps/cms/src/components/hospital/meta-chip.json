@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_hospital_meta_chips",
+  "info": {
+    "displayName": "Meta chip"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": ["accent", "ink"],
+      "default": "accent"
+    }
+  }
+}

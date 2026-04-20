@@ -1,0 +1,187 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_page",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": "Marketing homepage content for the public site"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "siteName": {
+      "type": "string"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.hero",
+      "required": true
+    },
+    "servicesEyebrow": {
+      "type": "string"
+    },
+    "servicesTitlePrefix": {
+      "type": "string"
+    },
+    "servicesTitleEmphasis": {
+      "type": "string"
+    },
+    "servicesSubtitle": {
+      "type": "text"
+    },
+    "servicePrograms": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.service-program",
+      "required": true,
+      "min": 1
+    },
+    "serviceProgramsCtaLabel": {
+      "type": "string"
+    },
+    "serviceProgramsCtaHref": {
+      "type": "string"
+    },
+    "missionEyebrow": {
+      "type": "string"
+    },
+    "missionHeadingPrefix": {
+      "type": "string"
+    },
+    "missionHeadingEmphasis": {
+      "type": "string"
+    },
+    "missionParagraph1": {
+      "type": "text"
+    },
+    "missionParagraph2": {
+      "type": "text"
+    },
+    "missionImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "missionImageBadge": {
+      "type": "string"
+    },
+    "missionImageCaption": {
+      "type": "string"
+    },
+    "missionValues": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.mission-value",
+      "required": true,
+      "min": 1
+    },
+    "statsEyebrow": {
+      "type": "string"
+    },
+    "statsTitlePrefix": {
+      "type": "string"
+    },
+    "statsTitleEmphasis": {
+      "type": "string"
+    },
+    "statsSubtitle": {
+      "type": "text"
+    },
+    "statCells": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.stat-cell",
+      "required": true,
+      "min": 1
+    },
+    "locationsEyebrow": {
+      "type": "string"
+    },
+    "locationsTitlePrefix": {
+      "type": "string"
+    },
+    "locationsTitleEmphasis": {
+      "type": "string"
+    },
+    "zipPlaceholder": {
+      "type": "string"
+    },
+    "locationCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.location-card",
+      "required": true,
+      "min": 1
+    },
+    "newsletterHeadingPrefix": {
+      "type": "string"
+    },
+    "newsletterHeadingEmphasis": {
+      "type": "string"
+    },
+    "newsletterBody": {
+      "type": "text"
+    },
+    "newsletterEmailPlaceholder": {
+      "type": "string"
+    },
+    "newsletterButtonLabel": {
+      "type": "string"
+    },
+    "newsletterPrivacyNote": {
+      "type": "string"
+    },
+    "newsletterSuccessMessage": {
+      "type": "text"
+    },
+    "navLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.nav-link",
+      "required": true,
+      "min": 1
+    },
+    "navSecondaryCtaLabel": {
+      "type": "string"
+    },
+    "navSecondaryCtaHref": {
+      "type": "string"
+    },
+    "navPrimaryCtaLabel": {
+      "type": "string"
+    },
+    "navPrimaryCtaHref": {
+      "type": "string"
+    },
+    "footerBrandTitle": {
+      "type": "string"
+    },
+    "footerBrandTitleEmphasis": {
+      "type": "string"
+    },
+    "footerTagline": {
+      "type": "text"
+    },
+    "footerColumns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.footer-column",
+      "required": true,
+      "min": 1
+    },
+    "footerCopyright": {
+      "type": "string"
+    },
+    "footerLegalLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.footer-link",
+      "required": false
+    }
+  }
+}

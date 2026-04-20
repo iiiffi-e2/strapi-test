@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_homepage_service_programs",
+  "info": {
+    "displayName": "Service program"
+  },
+  "options": {},
+  "attributes": {
+    "tabLabel": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "lede": {
+      "type": "text",
+      "required": true
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.service-feature",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "imageBadge": {
+      "type": "string"
+    },
+    "imageCaption": {
+      "type": "string"
+    }
+  }
+}

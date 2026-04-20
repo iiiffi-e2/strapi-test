@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_homepage_footer_links",
+  "info": {
+    "displayName": "Footer link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

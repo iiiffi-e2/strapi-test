@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_hospital_nearby_links",
+  "info": {
+    "displayName": "Nearby location"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "text"
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

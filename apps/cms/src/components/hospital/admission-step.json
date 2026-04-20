@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_hospital_admission_steps",
+  "info": {
+    "displayName": "Admission step"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

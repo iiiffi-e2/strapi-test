@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_homepage_stat_cells",
+  "info": {
+    "displayName": "Stat cell"
+  },
+  "options": {},
+  "attributes": {
+    "statMain": {
+      "type": "string"
+    },
+    "statEmphasis": {
+      "type": "string"
+    },
+    "statLabel": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

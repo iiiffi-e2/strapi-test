@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_hospital_location_services",
+  "info": {
+    "displayName": "Location service"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
